@@ -9,7 +9,8 @@
   
 >  git clone https://github.com/tanepiper/SublimeText-Nodejs "D:\Software\Sublime Text 3\Packages\Nodejs" 
 
-   后面路径是本地Sublime Text 3 安装路径
+   后面路径是本地Sublime Text 3 （Preferences–>浏览程序包Browse Packages所在的文件夹）
+
 
   然后打开刚才下载到本地的地址下面的 Nodejs.sublime-build 文件 修改两个地方
 
@@ -36,6 +37,8 @@
 	"cmd": ["killall node; node $file"]
     }
 }
+
+
 
 然后重启sublime text
 
